@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="blog.css">
+  <style>
+    #result {
+      margin-top: 20px;
+      opacity: 0;
+      max-width: 50%;
+      margin-left: 25%;
+      background-color: #f8f8f8;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      padding: 20px;
+      border-radius: 8px;
+      transition: opacity 1s ease-in-out;
+      color: black;
+    }
+
+    #result strong {
+      color: #333;
+    }
+
+    #result hr {
+      margin-top: 15px;
+      margin-bottom: 15px;
+      border: 0;
+      border-top: 1px solid #ddd;
+    }
+  </style>
+  <title>Blog</title>
+</head>
+<body>
+  <nav>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="blog.html">Blog</a></li>
+      <li><a href="message.html">MessageMe</a></li>
+    </ul>
+  </nav>
+
+  <div class="content">
+    <h1>Create your own blog here.</h1>
+    <form style="margin-top: 80px;">
+
+      <label for="title">Title:</label>
+      <input class="title" type="text" id="titleInput" placeholder="Enter Title...." required> <br>
+
+      <label class="lbl" for="content">Content:</label>
+      <textarea name="field1" class="field1 area1" id="contentInput" placeholder="Enter Content...."></textarea>
+
+      <button class="btn" type="button" onclick="displayResult()">Publish</button>
+      <button class="btn" type="button" onclick="clearResult()">Clear</button>
+
+      <div id="result"></div>
+
+    </form>
+  </div>
+
+  <div class="footer text-center spacer">
+    <h2 style="color: white;">CONTACT ME:</h2>
+    <span>
+      Email:<a href="mailto:jayjayzjpa@gmail.com">jayjayzjpa@gmail.com</a>
+      <p style="margin-right: 20px;">Phone: 09702005316</p>
+    </span>
+    <p><a href="https://www.facebook.com/jayver.algadipe/"><img src="images/portfolio/facebook.png" class="facebook" alt="facebook">👉 https://www.facebook.com/jayver.algadipe/</a></p>
+    &copy; Copyright 2023 Jayver Algadipe. All rights reserved.
+  </div>
+<script src="main.js"></script>
+</body>
+</html>

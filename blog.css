@@ -1,0 +1,653 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background-image: url(images/alone-astronomy-blue-british-columbia.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  color: white;
+  scroll-padding-top: 1.25rem;
+}
+
+nav {
+  min-width: 100%;
+  margin: 0;
+  top: 0;
+  background: rgba(0, 0, 0, 0.9);;
+  text-align: center; /* Center the navigation bar */
+  position: fixed;
+  z-index: 1;
+  color: white;
+}
+
+ul {
+  list-style-type: none;
+  letter-spacing: 10px;
+  margin: 15px;
+  display: inline-block; /* Center the list within the navigation bar */
+}
+
+li {
+  float: left;
+  margin-right: 20px;
+}
+
+li a {
+  text-decoration: none;
+  color: #ddd;
+  display: block;
+  padding: 14px 16px;
+  transition: 0.2s ease;
+  border-radius: 15px;
+}
+
+a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+form {
+  margin-top: 20px;
+}
+
+label,
+input,
+textarea { 
+  display: block;
+}
+.content {
+  text-align: center;
+  margin-top: 120px;
+}
+
+input {
+  margin-top: 25px;
+  box-shadow: 0 1.3rem 3rem #ddd;
+  padding: 160px;
+  font-size: 20px;
+  border-radius: 30px;
+  border: 4px solid blueb;
+  background-color: #ddd;
+  opacity: 0.6;
+  border: 4px solid black;
+}
+
+input:focus {
+  border: 4px solid black;
+  outline: none;
+  opacity: 1;
+}
+
+label {
+  font-size: 20px;
+  margin-right: 10%;
+}
+
+
+.lbl {
+  margin-right: 39%;
+}
+.title {
+  padding: 20px;
+  margin-left: 41%;
+}
+.content1 {
+  margin-left: 32%;
+}
+.content1 input {
+  width: 100px; /* Initial width */
+  max-width: 200px; /* Optional: Set a maximum width */
+  box-sizing: border-box; /* Optional: Include padding and border in the total width */
+}
+footer {
+  position: absolute;
+  margin: 0;
+}
+
+.footer1 {
+  background-color: blue;
+  position: absolute;
+  margin-top: 100%;
+  min-width: 1500px;
+  text-align: center;
+  padding: 10px;
+  margin: 0;
+  padding-top: 25px;
+}
+.footer-content1 { 
+  background-color: blue;
+  position: absolute;
+  min-width: 1452px;
+  text-align: center;
+  padding: 10px;
+  margin: 0;
+  padding-top: 25px;
+}
+
+.btn {
+  margin-top: 40px;
+  padding: 10px;
+  min-width: 30px;
+  border-radius: 10px;
+  transition: 0.2s ease;
+  background-color: white;
+  color: black;
+  margin-bottom: 150px;
+}
+
+.btn:hover {
+  background-color: #ddde;
+  color: black;
+}
+footer h3 {
+  animation: color;
+  animation-duration: 0.6s;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+}
+@keyframes color {
+  0% {
+    color: red;
+  }
+  30% {
+    color: yellow;
+  }
+  60% {
+    color: violet;
+  }
+  90% {
+    color: aqua;
+  }
+}
+
+.content {
+  animation: fadeleft;
+  animation-duration: 1s;
+  position: relative;
+}
+
+@keyframes fadeleft {
+  from {
+    transform: scale(0);
+  }
+  to {
+    transform: scale(1.3s);
+  }
+}
+
+.left {
+  animation: left1;
+  animation-duration: 0.3s;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+  position: absolute;
+  right: 150px;
+  top: -17px;
+}
+
+@keyframes left1 {
+  from {
+    left: 0;
+  }
+  to {
+    left: 30px;
+  }
+}
+
+.right {
+  animation: right1;
+  animation-duration: 0.3s;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+  position: absolute;
+  left: 150px;
+  top: -17px;
+}
+
+@keyframes right1 {
+  from {
+    right: 0;
+  }
+  to {
+    right: 30px;
+  }
+}
+h3 {
+  font-size: 15px;
+  animation: shake;
+  animation-duration: 1s;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+  position: relative;
+}
+@keyframes shake {
+  from {
+    right: 0;
+  }
+  to {
+    right: 90px;
+  }
+}
+
+i {
+  animation: left;
+  animation-duration: 1s;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+  position: relative;
+}
+@keyframes left {
+  from {
+    left: 0;
+  }
+  to {
+    left: 170px;
+  }
+}
+
+.ftr1 {
+  position: absolute;
+  margin-top: 20%;
+}
+h1 {
+  color: white;
+  margin-right: 60%;
+  margin-top: 40px;
+}
+.image img {
+  width: 180px;
+  height: 180px;
+  margin-top: 10px;
+  border-radius: 90px;
+  transition: 0.3s;
+  border: 2px solid white;
+}
+.image img:hover {
+  transform: scale(1.8);
+}
+.image img:active {
+  transform: scale(3);
+}
+i {
+  color: blue;
+}
+
+.container {
+  margin-top: 10px;
+  text-align: center;
+}
+
+.container h2 {
+  letter-spacing: 1px;
+  font-size: 35px;
+  color: white;
+  padding: 5px;
+  border-radius: 25px;
+  display: inline-block;
+  margin-top: 30px;
+  text-align: center;
+}
+
+.blog-post {
+  padding: 20px;
+  box-shadow: 0 1rem 3rem #ddd;
+  display: flex;
+  align-items: center;
+  border-radius: 0.8rem;
+  margin: 10px;
+}
+
+.blog-post_img {
+  max-width: 5rem;
+  height: 20rem;
+  transform: translate(1.3);
+  position: relative;
+  margin-top: 0.3%;
+}
+.blog-post_img img:hover {
+  transform: translateX(150px);
+  scale: 1.3;
+}
+.blog-post_img img:active {
+  scale: 2;
+}
+
+.blog-post img {
+  transition: all 0.7s ease;
+  border-radius: 20px;
+  border: 1px solid white;
+}
+.blog-post_img img::before {
+  content: "";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  box-shadow: 0.5rem 0.5rem 0.3rem 1px #ddd;
+  border-radius: 0.8rem;
+  transition: all 1s ease;
+}
+.blog-post_date span {
+  display: block;
+  color: #ddd;
+  font-size: 1.6rem;
+  font-weight: 600;
+  margin: 0.5rem 0;
+}
+
+.blog-post_title {
+  font-size: 2.5rem;
+  margin: 1.5rem 0 2rem;
+  text-transform: uppercase;
+  color: blue;
+}
+
+.blog-post_text {
+  text-align: center;
+  font-size: 1.1rem;
+  color: #ddd;
+  margin-top: 100px;
+}
+
+.blog-post_cta {
+  display: inline-block;
+  padding: 1.5rem 3rem;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  font-size: 1.2rem;
+  color: #ffff;
+  border-radius: 0.8rem;
+  text-decoration: none;
+  background: linear-gradient(to right, white 0%, blue 100%);
+}
+
+.blog-post_cta:hover {
+  background: linear-gradient(to right, blue 0%, white 100%);
+}
+
+.click p a {
+  display: inline-block;
+  font-size: 40px;
+  padding: 5px;
+  text-decoration: none;
+  transition: .4s;
+}
+ 
+ 
+.blog-post_info {
+  text-align: center;
+}
+
+/*About Css Style */
+
+header {
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+  max-width: 800px;
+  margin: auto;
+  text-align: justify;
+}
+header h1 {
+  margin-top: 0;
+}
+main {
+  margin: 0 auto;
+  padding: 20px;
+  height: fit-content;
+  max-width: 800px;
+}
+section {
+  margin-bottom: 30px;
+}
+section h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: blue;
+}
+section p {
+  line-height: 1.5;
+  font-size: 20px;
+}
+
+
+
+/* contact form */
+
+
+.container5{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  height: 100%;
+  padding: 20px 100px;
+  margin-top: 150px;
+ 
+}
+.container5::after{
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+ 
+  background-size: cover;
+  z-index: -1;
+  filter: blur(30px);
+}
+.contact-box{
+  max-width: 900px;
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: #fff;
+  padding: 10px;
+  box-shadow: 0px 0px 19px 5px #ddd;
+}
+.left1{
+  height: 100%;
+  background: url(images/BSIT.jpg) no-repeat center;
+  background-size: cover;
+}
+.right2{
+  padding: 25px 40px;
+}
+.container5 h2{
+ text-align: center;
+ color: blue;
+}
+.right2:after{
+  content:'';
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  transform: translateX(-50%);
+  height: 4px;
+  width: 50px;
+  border-radius: 2px;
+ 
+}
+.field{
+  
+  width: 100%;
+  padding: 0.5rem 1rem;
+  outline: none;
+  border: 2px solid rgba(0,0,0,0);
+  background-color: rgba(230, 230, 230, 230);
+  font-size: 1.1rem;
+  margin-bottom: 22px;
+  transition: .3s;
+}
+.field:hover{
+  background-color: rgba(0,0,0,0.1);
+}
+.field:focus{
+  border: 2px solid black;
+  box-shadow: 0px 0px 19px 5px #ddd;
+  
+}
+.area{
+  min-height: 150px;
+}
+.btn5{
+  width: 100%;
+  padding: 0.5rem 1rem;
+  font-size: 1.1rem;
+  color: black;
+  background-color: white;
+  cursor: pointer;
+  outline: none;
+  border: none;
+}
+.btn5:hover{
+  background-color: black;
+  color: white;
+}
+@media screen and (max-width:880px){
+  .contact-box{
+      grid-template-columns: 1fr;
+  }
+  .left1{
+      height: 200px;
+  }
+  .container5{
+      justify-content: center;
+      align-items: center;
+  }
+}
+
+
+/* blog box input */
+
+
+.field1{
+  
+  width: 50%;
+  padding: 0.5rem 2rem;
+  padding-bottom: 20%;
+  outline: none;
+  margin-bottom: 22px;
+  transition: .3s;
+  margin-left: 25%;
+  margin-top: 25px;
+  box-shadow: 0 1.3rem 3rem #ddd;
+  font-size: 20px;
+  border-radius: 50px;
+  background-color: #ddd;
+  opacity: 0.6;
+  border: 4px solid black;
+}
+
+.field1:focus {
+  border: 4px solid black;
+  outline: none;
+  opacity: 1;
+}
+
+
+
+.area1{
+  min-height: 20px;
+}
+
+
+/* footer */
+
+.footer {
+  background-color: #111;
+  color: #fff;
+  font-size: 1em;
+  padding: 40px;
+  color: #aaa;
+  padding-top: 10px;
+  text-align: center;
+  margin-top: 10%;
+}
+
+.footer a {
+  color: #aaa;
+  margin: 0 1em;
+}
+
+.gototop {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background: rgba(0, 0, 0, 0.5);
+  padding: 80px;
+  color: #fff;
+}
+
+.gototop i {
+  line-height: 0.5em;
+}
+
+
+.facebook {
+  size: 10px;
+  height: 60px;
+}
+
+/* keyrames */
+
+@media screen and (max-width: 600px) {
+  nav {
+    display: inline-block;
+  }
+  nav ul li a {
+    padding: 4px;
+    font-size: 10px;
+    
+  }
+  .content h1 {
+    margin-left: 2%;
+    display: inline;
+    font-size: 13px;
+  }
+  .title{
+    width: 190px;
+    margin-left: 100px;
+    height: 0px;
+    font-size: 15px;
+    margin-bottom: 20px;
+  }
+  .field1 {
+    width: 230px;
+    height: 30px;
+    margin-left: 70px;
+    font-size: 15px;
+    margin-bottom: 0px;
+  }
+  label{
+    text-align: left;
+    margin-left: 130px;
+  }
+  .lbl{
+    margin-left: 100px;
+  }
+  .container5{
+    min-height: 10px;
+    width: 30px;
+    margin-left: 25%;
+    font-size: 15px;
+  }
+  .contact-box{
+    min-width: 320px;
+    
+  }
+  .right2 {
+    margin-right: 36px;
+  }
+  .right2 h2 {
+    margin-left: 40px;
+  }
+  .footer{
+    font-size: 10px;
+  }
+}
